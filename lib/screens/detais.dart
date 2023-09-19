@@ -86,20 +86,20 @@ class _DetailPageState extends State<details> {
               child: SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                    // children: [
-                    //   ...data['image']
-                    //       .map(
-                    //         (e) => SizedBox(
-                    //           height: 370,
-                    //           child: Image.network(
-                    //             '$e',
-                    //             fit: BoxFit.cover,
-                    //           ),
-                    //         ),
-                    //       )
-                    //       .toList(),
-                    // ],
-                    ),
+                  children: [
+                    ...data['image']
+                        .map(
+                          (e) => SizedBox(
+                            height: 380,
+                            child: Image.network(
+                              '$e',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        )
+                        .toList(),
+                  ],
+                ),
               ),
             ),
             Container(
@@ -154,7 +154,7 @@ class _DetailPageState extends State<details> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "${data['cata']}",
+                            "${data['categoryName']}",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.grey.shade700,
@@ -218,26 +218,26 @@ class _DetailPageState extends State<details> {
                       ),
                     ],
                   ),
-                  // Column(
-                  //   crossAxisAlignment: CrossAxisAlignment.start,
-                  //   children: [
-                  //     const Text(
-                  //       "Description",
-                  //       style: TextStyle(
-                  //         fontSize: 20,
-                  //         fontWeight: FontWeight.bold,
-                  //       ),
-                  //     ),
-                  //     const SizedBox(height: 10),
-                  //     Text(
-                  //       "${data['discription']}",
-                  //       style: TextStyle(
-                  //         fontSize: 16,
-                  //         color: Colors.grey.shade700,
-                  //       ),
-                  //     ),
-                  //   ],
-                  // ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        "Description",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        "${data['discription']}",
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.grey.shade700,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
