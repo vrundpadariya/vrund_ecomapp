@@ -11,6 +11,7 @@ class Global {
           'stock': 131,
           'ratting': 5,
           'discount': 10,
+          'caname': 'perfumes',
           'thumbnail':
               "https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/dusk-sale.webp",
           'discription':
@@ -28,6 +29,7 @@ class Global {
           'brand': 'AdilQadri',
           'stock': 100,
           'ratting': 4,
+          'caname': 'perfumes',
           'discount': 10,
           'thumbnail':
               "https://www.adilqadri.com/cdn/shop/files/aaShanaya12ml.2_800x.jpg?v=1694615120",
@@ -45,6 +47,7 @@ class Global {
           'name': ' Dawn',
           'price': 500,
           'ratting': 3,
+          'caname': 'perfumes',
           'brand': 'Blanko',
           'stock': 89,
           'discount': 17,
@@ -61,6 +64,7 @@ class Global {
         {
           'id': 4,
           'name': 'Ceo Man ',
+          'caname': 'perfumes',
           'price': 200,
           'brand': 'Bella Vita',
           'stock': 89,
@@ -82,6 +86,7 @@ class Global {
           'id': 5,
           'name': 'Alpha Eau De',
           'price': 1200,
+          'caname': 'perfumes',
           'brand': 'Pilgrim',
           'stock': 50,
           'ratting': 5.0,
@@ -106,6 +111,7 @@ class Global {
           'id': 1,
           'name': 'Empera Analog',
           'price': 1300,
+          'caname': 'Watchs',
           'ratting': 4.5,
           'brand': 'Timex',
           'stock': 80,
@@ -124,6 +130,7 @@ class Global {
           'name': 'Aspire Quartz',
           'price': 1500,
           'ratting': 3.89,
+          'caname': 'Watchs',
           'discount': 12,
           'brand': 'titan',
           'stock': 123,
@@ -141,6 +148,7 @@ class Global {
           'id': 3,
           'name': 'Workwear Watch',
           'price': 2000,
+          'caname': 'Watchs',
           'ratting': 5,
           'brand': 'Titan',
           'stock': 54,
@@ -165,6 +173,7 @@ class Global {
           'brand': 'Fossil ',
           'stock': 74,
           'ratting': 5.1,
+          'caname': 'Watchs',
           'discount': 10,
           'thumbnail':
               "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQNivipvFrtW-stft_-Oa7lwHlB9BGGJZKVnCJzJLE4xLVf4vIylGR9FL5B2POL3MBbkwxVPWAJE-qzQJWX4iesGZRIM-Y8Tu5aUtByfLGrO9XB6AhPuYE8qw",
@@ -183,6 +192,7 @@ class Global {
           'stock': 40,
           'ratting': 4.5,
           'discount': 8,
+          'caname': 'Watchs',
           'thumbnail':
               "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTi0Yr1en6aK78J3I09OiOdLCnjF_jVCYiFMgOGC97Pg4ZPixUQLph3wPg4WMTUIarLU_0sWVzNNu05nOOx4zOIKRU8IG3_R64YdTYJrhjrb98y9zUuaZQx",
           'discription':
@@ -204,6 +214,7 @@ class Global {
           'price': 1350,
           'brand': 'urbanmonkey',
           'stock': 39,
+          'caname': 'Glasses',
           'ratting': 4.8,
           'discount': 8,
           'thumbnail':
@@ -222,6 +233,7 @@ class Global {
           'id': 2,
           'name': 'COMMANDO V1 ',
           'price': 1500,
+          'caname': 'Glasses',
           'ratting': 4.1,
           'discount': 10,
           'brand': 'sunglassic',
@@ -242,6 +254,7 @@ class Global {
           'id': 3,
           'name': 'GOLD DIGGER',
           'price': 1000,
+          'caname': 'Glasses',
           'brand': 'urbanmonkey',
           'stock': 14,
           'ratting': 5,
@@ -261,6 +274,7 @@ class Global {
           'name': 'CLASSIC WAYFARER',
           'price': 1850,
           'ratting': 4.5,
+          'caname': 'Glasses',
           'discount': 15,
           'brand': 'urbanmonkey',
           'stock': 24,
@@ -282,6 +296,7 @@ class Global {
           'discount': 16,
           'brand': 'urbanmonkey',
           'stock': 44,
+          'caname': 'Glasses',
           'thumbnail':
               "https://www.urbanmonkey.com/cdn/shop/products/airplane-mode-005-1_51427e61-356b-4706-81ac-706a68c9593e_1024x.jpg?v=1682318421",
           'discription':
@@ -299,6 +314,7 @@ class Global {
       'categoryProducts': [
         {
           'id': 1,
+          'caname': 'Shoes',
           'name': 'Thunder-01',
           'price': 798,
           'ratting': 4.5,
@@ -320,6 +336,7 @@ class Global {
           'id': 2,
           'name': 'Sport',
           'price': 800,
+          'caname': 'Shoes',
           'ratting': 4.5,
           'discount': 18,
           'brand': 'Hundo P',
@@ -341,6 +358,7 @@ class Global {
           'id': 3,
           'name': 'Colourblocked',
           'price': 1800,
+          'caname': 'Shoes',
           'ratting': 4,
           'brand': 'Solethreads men',
           'stock': 79,
@@ -362,6 +380,7 @@ class Global {
           'id': 4,
           'name': 'Knit V3',
           'price': 1850,
+          'caname': 'Shoes',
           'ratting': 3.9,
           'discount': 18,
           'brand': 'Puma',
@@ -382,6 +401,7 @@ class Global {
           'id': 5,
           'name': 'Air-Cooled Memory ',
           'price': 4750,
+          'caname': 'Shoes',
           'ratting': 3.2,
           'discount': 15,
           'brand': 'Skechers',
@@ -403,6 +423,7 @@ class Global {
           'id': 1,
           'name': 'Symbol ',
           'price': 250,
+          'caname': 'belts',
           'ratting': 5,
           'discount': 15,
           'brand': 'Levi',
@@ -423,6 +444,7 @@ class Global {
           'price': 300,
           'brand': 'Winsome Deal',
           'stock': 89,
+          'caname': 'belts',
           'ratting': 5,
           'discount': 18,
           'thumbnail':
@@ -440,12 +462,13 @@ class Global {
           'price': 2800,
           'brand': 'Fjallraven Canvas',
           'stock': 100,
+          'caname': 'belts',
           'ratting': 4.5,
           'discount': 15,
           'thumbnail':
               "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTorDJJuIDKAuPCYhNc9C0CwNwORhQ-KFTdb3XX1zRaf1JWbOc6JrYdyX6HGgkBMAhKyDhdqDTowpbHGmqt-YTCP3Y2uKcKMxLUEB1WckE",
           'discription':
-              'Robust canvas belt. Adjustable length and military buckle with brushed brass finish. Width 4 cm. Canvas belt that is easily shortened. Metal buckle with antiqe brass finish. 4 centimeters wide. Metal tip. 100% acrylic Fjallraven In 1960, Åke Nordin founded Fjällräven',
+              'Robust canvas belt.Canvas belt that is easily shortened. Metal buckle with antiqe brass finish. 4 centimeters wide. Metal tip. 100% acrylic Fjallraven In 1960, Åke Nordin founded Fjällräven',
           'image': [
             'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRtt-i09uvDx6Fbefyc0pIqVMP1acMXeVsR5ykqMDPyGcWapp6cyfcC2Bo7KUKqBTO8ZW4v7TKATTYUMPRIPpq5v1i2qCo-&usqp=CAY',
             'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRP52rukTmNXue35qIqe7hSdKcnysIVZmcP1yuB0X51wErect5dJyF-qJxnwZ_ssXhO7_UnkwgFe6jfUQ5z2ebZbimBv6WM&usqp=CAY',
@@ -460,6 +483,7 @@ class Global {
           'price': 700,
           'brand': 'Labnoft',
           'stock': 89,
+          'caname': 'belts',
           'ratting': 4,
           'discount': 18,
           'thumbnail':
@@ -477,6 +501,7 @@ class Global {
           'id': 5,
           'name': 'Marmont reversible',
           'price': 64000,
+          'caname': 'belts',
           'ratting': 5,
           'brand': 'Bella Vita',
           'stock': 89,
@@ -500,6 +525,7 @@ class Global {
           'id': 1,
           'name': 'Bucket hat',
           'price': 720,
+          'caname': 'Caps',
           'ratting': 4.5,
           'discount': 10,
           'brand': 'H&M',
@@ -520,6 +546,7 @@ class Global {
           'name': 'SOFT CAP',
           'price': 1599,
           'ratting': 4,
+          'caname': 'Caps',
           'discount': 20,
           'brand': 'Zara',
           'stock': 23,
@@ -538,6 +565,7 @@ class Global {
           'name': 'DRIP AUTHORITY',
           'price': 1350,
           'ratting': 4.25,
+          'caname': 'Caps',
           'discount': 10,
           'brand': 'Urban Monkey',
           'stock': 89,
@@ -559,6 +587,7 @@ class Global {
           'price': 38000,
           'ratting': 5,
           'discount': 25,
+          'caname': 'Caps',
           'brand': 'Gucchi',
           'stock': 89,
           'thumbnail':
@@ -578,11 +607,13 @@ class Global {
           'price': 999,
           'ratting': 5,
           'discount': 10,
+          'caname': 'Caps',
           'brand': 'urbanic',
           'stock': 12,
           'thumbnail':
               "https://img101.urbanic.com/v1/goods-pic/73af28a549ee4c6a92ba43a4c0fd366dUR_w1440_q90.webp",
-          'discription': '. ',
+          'discription':
+              'urbanic products are made with carefully selected materials',
           'image': [
             'https://img101.urbanic.com/v1/goods-pic/602b74a2a92640c98eb5ba18b26d8dbbUR_w1440_q90.webp',
             'https://img101.urbanic.com/v1/goods-pic/0a727e12cc5643ce9f406f0a6375a90aUR_w1440_q90.webp',
